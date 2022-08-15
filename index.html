@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>TypeScript</section>
+        <section>TypeScript compatibility with JavaScript</section>
+        <section>Types in Typescript <img src="./assets/image/types.png" alt="Types"></section>
+        <section>
+            <section>Primitive types (Simple types)</section>
+            <section>
+                Boolean
+                <img src="./assets/image/boolean.png" alt="Boolean">
+            </section>
+            <section>
+                Number
+                <img src="./assets/image/number.png" alt="Number">
+            </section>
+            <section>
+                String
+                <img src="./assets/image/string.png" alt="String">
+            </section>
+        </section>
+        <section>
+            <section>Special types</section>
+            <section>
+                Any
+                <img src="./assets/image/any.png" alt="Any">
+            </section>
+            <section>
+                Unknown
+                <img src="./assets/image/unknown.png" alt="Unknown">
+            </section>
+            <section>
+                Type assertion
+                <img src="./assets/image/as1.png" alt="Unknown">
+                <img src="./assets/image/as2.png" alt="Unknown">
+            </section>
+        </section>
+        <section>
+            Union types
+            <img src="./assets/image/union.png" alt="Union">
+        </section>
+        <section>Object types</section>
+        <section>
+            <section>
+                Array
+                <img src="./assets/image/array1.png" alt="Array">
+                <img src="./assets/image/array2.png" alt="Array">
+            </section>
+            <section>
+                Tuples
+                <img src="./assets/image/tuples.png" alt="Tuples">
+            </section>
+        </section>
+        <section>
+            <section>Functions in TypeScript</section>
+            <section>
+                Named Functions
+                <img src="./assets/image/named.png" alt="Named Function">
+            </section>
+            <section>
+                Anonymous Functions
+                <img src="./assets/image/anonymous.png" alt="Anonymous Functions">
+            </section>
+            <section>
+                Arrow Functions
+                <img src="./assets/image/arrow.png" alt="Anonymous Functions">
+            </section>
+            <section>Function parameters in Typescript</section>
+            <section>
+                Required Parameters
+                <img src="./assets/image/named.png" alt="Named Function">
+            </section>
+            <section>
+                Optional Parameters
+                <img src="./assets/image/optional.png" alt="Named Function">
+            </section>
+            <section>
+                Default Parameters
+                <img src="./assets/image/default.png" alt="Named Function">
+            </section>
+        </section>
+        <section>
+            <section>Classes in TypeScript</section>
+            <section>
+                <div class="cars">
+                    <img src="./assets/image/car.png" alt="Car">
+                    <img src="./assets/image/electriccar.png" alt="Car">
+                </div>
+            </section>
+            <section>
+                Class Components
+                <br>
+                <br>
+                <ul>
+                    <li>Properties</li>
+                    <li>Accessors</li>
+                    <li>Methods</li>
+                </ul>
+            </section>
+            <section>
+                Access modifiers
+                <br>
+                <br>
+                <ul>
+                    <li>public</li>
+                    <li>private</li>
+                    <li>protected</li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            Useful Links
+            <br>
+            <a href="https://docs.microsoft.com/en-us/learn/paths/build-javascript-applications-typescript/">TypeScript Interactive Course</a>
+            <br>
+            <a href="https://www.w3schools.com/typescript/typescript_getstarted.php">Get Started with TypeScript</a>
+            <br>
+            <a href="https://www.npmjs.com/package/typescript">npm typescript</a>
+            <br>
+            <a href="https://www.typescriptlang.org/docs/">TypeScript Docs</a>
+        </section>
+    </div>
+</div>
+
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+</script>
+</body>
+</html>
